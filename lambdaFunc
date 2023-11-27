@@ -1,3 +1,5 @@
+//O trigger do lambda precisa estar conectado a SQS, com suas devidas permissões. Eu utilizei todas as permissões afim de economizar tempo. Também permiti tudo no DynamoDB. 
+
 const aws = require('aws-sdk');
 
 const dynamoDB = new aws.DynamoDB.DocumentClient({
